@@ -1,0 +1,29 @@
+{
+    "name": "ketwaroo/php-db",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yaasir Ketwaroo",
+          "email":"608793+ketwaroo@users.noreply.github.com"
+        }
+    ],
+    "require": {
+         "laminas/laminas-db": "^2.17"
+    },
+    "require-dev": {
+        "ketwaroo/debug-helper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ketwaroo\\": "src/Ketwaroo/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://satis.ketwaroo.com"
+        }
+    ]
+
+}
